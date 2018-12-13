@@ -1,0 +1,19 @@
+{
+  "name": "slug-vietnamese",
+  "version": "1.0.0",
+  "description": "seo friendly url for vietnamese",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slug-vietnamese",
+    "bo",
+    "dau",
+    "tieng",
+    "viet",
+    "slug"
+  ],
+  "author": "tran vuong",
+  "license": "ISC"
+}
