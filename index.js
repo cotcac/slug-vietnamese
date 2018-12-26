@@ -11,9 +11,9 @@ module.exports = function(str){
 }
 function slug(str,spaceRepl="-"){
   // Replace "&" char with "va"
-  str = str.replace(/&/g, "va")
+  str = str.replace(/&/g, "va");
   // Delete any chars but letters, numbers, spaces and _, -
-  str = str.replace(/[^A-Za-z0-9\s!?]/g,"")
+  str = str.replace(/[^A-Za-z0-9\s]/g,"")
   // Replace spaces with replacement
   str = str.replace(/\s+/g,spaceRepl);
   return str;
